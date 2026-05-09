@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MotoShop Parts</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+             background:linear-gradient(135deg, #8a9a7b, #222221); 
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #343a40;
+            color: white;
+            padding: 15px 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid white;
+        }
+        .main-shop-button {
+            background-color: red;
+            color: white;
+            padding: 8px 15px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+            border-radius: 3px;
+        }
+        table {
+            width: 90%;
+            margin: 20px auto;
+            border-collapse: separate;
+            border-spacing: 20px;
+        }
+        td {
+            background-color: #e6f2f8;
+            text-align: center;
+            padding: 20px;
+            border-radius: 15px;
+            vertical-align: top;
+        }
+        img {
+            width: 150px;
+            height: auto;
+            margin-bottom: 10px;
+            border-radius: 8px;
+        }
+        .description {
+            font-size: 12px;
+            color: #555;
+            margin: 5px 0 10px 0;
+            min-height: 30px;
+        }
+        .price {
+            font-weight: bold;
+            color: #000;
+            margin-bottom: 10px;
+        }
+        .shopnow-btn {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .shopnow-btn:hover {
+            background-color: #218838;
+        }
+         nav {
+            background:#343a40;
+            color:white;
+            padding:15px 50px;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            margin-right: 680px;
+        }
+        nav a {
+            color:#f7fbf8;
+            text-decoration:none;
+            margin-right:15px;
+            font-size:15px; 
+            font-weight: bold;
+        }
+        nav a.active{
+            color:#ffffff;
+        }
+        nav a:hover{
+            color: rgb(222, 132, 140);
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="header">
+        <img src="img/logo.png" alt="logo" class="logo">
+    <nav><div>
+            <a href="HomePage.html">HOME</a>
+            <a href="About.html">ABOUT</a>
+            <a href="shop.html">SHOP</a>
+            <a href="About.html">CONTACT</a>
+            </nav>
+            <h1>MotoShop Parts</h1>
+        </div>
+    </div>
+
+    <table>
+        <tr>
+            <td>
+                <img src="img/sidemirror.png" alt="Side Mirror"> <br>
+                <strong>Side mirror</strong>
+                <p class="description">High quality clear glass side mirror, durable and easy to install.</p>
+                <div class="price">P350.00</div>
+               <a href="BuyMirror.html" class="shopnow-btn">SHOP NOW</a>
+            </td>
+            <td>
+                <img src="img/magss.png" alt="Mags"> <br>
+                <strong>Mags</strong>
+                <p class="description">Premium alloy mags wheels, stylish design and heavy duty.</p>
+                <div class="price">P6500.00</div>
+               <a href="BuyMags.html" class="shopnow-btn">SHOP NOW</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="img/pipe.png" alt="Pipe"> <br>
+                <strong>Pipe</strong>
+                <p class="description">Chrome plated exhaust pipe, deep sound and perfect fit.</p>
+                <div class="price">P4500    .00</div>
+               <a href="BuyPipe.html" class="shopnow-btn">SHOP NOW</a>
+            </td>
+            <td>
+                <img src="img/tire.png" alt="Tires"> <br>
+                <strong>Tires</strong>
+                <p class="description">Thick and heavy duty tires, excellent grip on wet and dry roads.</p>
+                <div class="price">P3500.00</div>
+                <a href="BuyTire.html" class="shopnow-btn">SHOP NOW</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="img/handlegrip.png" alt="Handle Grip"> <br>
+                <strong>Handle grip</strong>
+                <p class="description">Comfortable rubber handle grip, anti-slip and long lasting.</p>
+                <div class="price">P150.00</div>
+                <a href="BuyHandlegrip.html" class="shopnow-btn">SHOP NOW</a>
+            </td>
+            <td>
+                <img src="img/oil.png" alt="Oil"> <br>
+                <strong>Oil</strong>
+                <p class="description">High performance engine oil, protects engine and improves performance.</p>
+                <div class="price">P350.00</div>
+                <a href="BuyOil.html" class="shopnow-btn">SHOP NOW</a>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>

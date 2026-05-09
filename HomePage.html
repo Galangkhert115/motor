@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+    <style>
+        * {
+            margin:0;
+            padding:0; 
+            font-family:Arial;
+        }
+        nav {
+            background:#343a40;
+            color:white;
+            padding:15px 50px;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+        }
+        nav a {
+            color:#f7fbf8;
+            text-decoration:none;
+            margin-left:20px;
+            font-size:15px;
+        }
+        nav a:active{
+            color:#ffffff;
+        }
+        nav a:hover{
+            color: rgb(222, 132, 140);
+        }
+        .hero {
+            background:linear-gradient(135deg, #8a9a7b, #222221);
+            min-height:85vh;
+            display:flex;
+            align-items:center;
+            justify-content:space-between;
+            padding:0 50px;
+            color:white;
+        }
+        .text h1{
+            font-size:45px; 
+            margin-bottom:15px;
+        }
+        .text p {
+            margin-bottom:25px; 
+            opacity:0.9;
+        }
+        .btn {
+            background:#343a40;
+            color:white;
+            padding:8px 22px;
+            text-decoration:none;
+            display:inline-block;
+            border-radius:3px;
+            margin-bottom:20px;
+        }
+        .img-wrap {
+            position:relative;
+        }
+        .circle {
+            width:350px;
+            height:350px;
+            background:rgba(255,255,255,0.15);
+            border-radius:50%;
+            position:absolute;
+            top:-15px;
+            left:-15px;
+        }
+        .img {
+            width:320px;
+            height:320px;
+            border-radius:50%;
+            border:7px solid rgba(255,255,255,0.1);
+            position:relative;
+            z-index:2;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div style="font-weight:bold; font-size:19px;">Motoshop</div>
+        <div>
+            <a href="HomePage.html" >HOME</a>
+            <a href="About.html">ABOUT</a>
+            <a href="shop.html">SHOP</a>
+            <a href="About.html">CONTACT</a>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <div class="text">
+            <h1>Enjoy Shopping</h1>
+            <p>We provide quality motor parts and accessories for different
+    motorcycle brands</p>
+            <a href="About.html" class="btn">Contact Us!</a>
+        </div>
+
+        <div class="img-wrap">
+            <div class="circle"></div>
+            <img src="img/design.png" class="img">
+        </div>
+    </div>
+
+</body>
+</html>
